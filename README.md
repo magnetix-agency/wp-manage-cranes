@@ -34,6 +34,3 @@ See also [the list of contributors](https://github.com/magnetize-io/wp-manage-cr
 
 ## License
 This project is licensed under the GPLv2 License.
-
-## Support
-This is a developer's portal for Popup Maker and **should not** be used for support. Please [create a support ticket here](https://wordpress.org/support/plugin/popup-maker/).
