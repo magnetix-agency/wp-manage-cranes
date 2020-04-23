@@ -11,3 +11,5 @@ Author URI: http://maximosojo.com/
 
 require_once("includes/cranes-post-type.php");
 require_once("includes/types/type-taxonomy.php");
+require_once("includes/types/model-taxonomy.php");
+require_once("includes/types/manufacturer-taxonomy.php");
