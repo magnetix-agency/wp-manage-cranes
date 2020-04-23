@@ -1,9 +1,9 @@
 <?php
 
-if ( ! function_exists('magnetize_field_post_type') ) {
+if ( ! function_exists('magnetize_post_type') ) {
 
 // Register Custom Post Type
-function magnetize_field_post_type() {
+function magnetize_post_type() {
 
 	$labels = array(
 		'name'                  => _x( 'Cranes', 'Post Type General Name', 'magnetize-field' ),
@@ -56,6 +56,6 @@ function magnetize_field_post_type() {
 	register_post_type( 'cranes-for-sale', $args );
 
 }
-add_action( 'init', 'magnetize_field_post_type', 0 );
+add_action( 'init', 'magnetize_post_type', 0 );
 
 }

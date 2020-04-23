@@ -9,4 +9,5 @@ Version: 1.0.0
 Author URI: http://maximosojo.com/
 */
 
-require_once("includes/cranes_post_type.php");
+require_once("includes/cranes-post-type.php");
+require_once("includes/types/type-taxonomy.php");
